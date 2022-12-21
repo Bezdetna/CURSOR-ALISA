@@ -24,8 +24,8 @@ hr {
 }
 img {
     
-    width: 20px;
-    height: 20px;
+    width: 70%;
+    height: 130%;
     text-align: -webkit-center;
 }
 h2 {
@@ -33,3 +33,21 @@ h2 {
     font-size: 40px;
     font-family: sans-serif;
     }
+h1 {
+    top: 20px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+figcaption{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h3{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom: solid;
+}
+b {
+    font-weight: bold;
+}
