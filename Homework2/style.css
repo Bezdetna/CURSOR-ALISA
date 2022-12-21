@@ -33,6 +33,9 @@ h2 {
     font-size: 40px;
     font-family: sans-serif;
     }
+    b {
+        font-weight: bold;
+    }
 h1 {
     top: 20px;
     font-size: 40px;
@@ -47,7 +50,4 @@ h3{
     font-size: 25px;
     font-family:Arial, Helvetica, sans-serif;
     border-bottom: solid;
-}
-b {
-    font-weight: bold;
 }
