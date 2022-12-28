@@ -8,6 +8,11 @@ body{
     background-color: rgb(214, 214, 214);
 
 }
+button{
+    cursor: pointer;
+    border: none;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -82,7 +87,7 @@ main{
     padding: 8px 10px;
     gap: 10px;
     width: 130px;
-    height: 36px;
+    height: 32px;
     box-sizing: border-box;
     border-radius: 4px;
     flex: none;
@@ -133,10 +138,6 @@ main{
     height: 16px;
     border: none;
     background: none;
-}
-.container-second-button{
-    width: 16px;
-    height: 16px;
 }
 .container-second-text{
     width: 689px;
@@ -338,7 +339,7 @@ main{
     }
 .seventh-button{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     padding: 7px 28px;
     gap: 5px;
     width: 121px;
@@ -427,7 +428,7 @@ main{
 .button-third-one{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     padding: 4px 10px;
     gap: 10px;
     background: rgba(13, 12, 34, 0.05);
@@ -442,7 +443,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 4px 10px;
+    padding: 6px 12px;
     gap: 10px;
     width: 52px;
     height: 28px;
@@ -496,7 +497,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 2px 9px;
+    padding: 6px 12px;
     gap: 10px;
     width: 49px;
     height: 28px;
@@ -559,7 +560,7 @@ main{
 .container-eight-link{
     width: 95px;
     height: 17px;
-    font-family: 'SF Pro Text';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -587,9 +588,7 @@ main{
     flex-grow: 0;
 }
 .container-eight-button-text{
-    width: 48px;
-    height: 17px;
-    font-family: 'SF Pro Text';
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -599,11 +598,13 @@ main{
     background: #6666FF;
     border-color: #6666FF;
     border-radius: 4px;
-    width: 64px;
-    height: 33px;
+    padding: 6px 11px;
+    width: 65px;
+    height: 32px;
     flex: none;
     order: 0;
-    flex-grow: 0;}
+    flex-grow: 0;
+}
 .container-square{
     display: flex;
     flex-direction: row;
