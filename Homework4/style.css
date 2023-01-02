@@ -28,15 +28,15 @@ main{
     align-items: flex-start;
     flex-direction: column;
     padding-left: 21%;
-    padding-right: 21%;
+    padding-right: 11%;
     line-height: 25px;
 }
 .section-one-first-title{
     font-family: 'Lato';
     font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 43px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
     color: #FFFFFF;
 }
 .section-one-text{
@@ -57,6 +57,9 @@ main{
     width: 100%;
     height: auto;
     flex-grow: 1;
+}
+.secthion-one-third-img-one{
+    padding-left: 15%;
 }
 .section-two{
     height: auto;
@@ -137,41 +140,33 @@ main{
     border-radius: 6px;
 }
 .footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #FAFAFA;
     height: auto;
     width: 100%;
-    display: flex;
-    background:#ED4C5C;
-    color: #ffff;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
     padding: 5% 0 5% 0;
-    gap: 10px;
 }
 .section-three{
     display: flex;
-    flex-direction: row;
-    text-align: left;
-    gap: 14%;
+    height: auto;
+    width: 100%;
 }
-.section-three-first
-{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.section-three-first,
+.section-three-second,
+.section-three-third,
+.section-three-forth{
+    width: 25%;
 }
-.section-three-second{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.section-tree-last-text{
+    padding-right: 45%;
 }
-.section-three-third{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.section-three-first{
+    padding-left: 21%;
 }
 .section-three-forth{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    padding-right: 10%;
 }
