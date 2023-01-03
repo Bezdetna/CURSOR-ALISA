@@ -21,6 +21,17 @@ main{
     flex-direction: row;
     padding: 5% 0 5% 0;
 }
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+}
 .section-one-first{
     display: flex;
     width: 50%;
@@ -161,7 +172,6 @@ main{
 .section-three-third,
 .section-three-forth{
     width: 25%;
-    line-height: 20px;
 }
 .section-tree-last-text{
     padding-right: 47%;
@@ -171,8 +181,12 @@ main{
     line-height: 27px;
 }
 .section-three-second{
-    line-height: 26px;
+    line-height: 25px;
+}
+.section-three-third{
+    line-height: 25px;
 }
 .section-three-forth{
     padding-right: 10%;
+    line-height: 25px;
 }
