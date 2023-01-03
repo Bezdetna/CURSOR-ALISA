@@ -10,17 +10,6 @@ main{
     justify-content: center;
     align-items: center;
 }
-.section-one{
-    height: auto;
-    width: 100%;
-    display: flex;
-    background:#ED4C5C;
-    color: #ffff;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    padding: 5% 0 5% 0;
-}
 button{
     cursor: pointer;
 }
@@ -31,6 +20,17 @@ a{
 }
 input{
     cursor: pointer;
+}
+.section-one{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background:#ED4C5C;
+    color: #ffff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5% 0 5% 0;
 }
 .section-one-first{
     display: flex;
@@ -47,7 +47,6 @@ input{
     font-weight: 500;
     font-size: 40px;
     line-height: 50px;
-    color: #FFFFFF;
 }
 .section-one-text{
     font-family: 'Lato';
@@ -56,7 +55,6 @@ input{
     font-size: 14px;
     line-height: 140%;
     text-align: justify;
-    color: #FFFFFF;
     padding: 25px 0 25px 0;
 }
 .section-two-in-first{
@@ -107,7 +105,6 @@ input{
     font-weight: 400;
     font-size: 14px;
     line-height: 140%;text-align: justify;
-    color: #000000;
 }
 .section-two-second{
     display: flex;
