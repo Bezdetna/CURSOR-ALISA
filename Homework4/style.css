@@ -42,14 +42,12 @@ input{
     line-height: 25px;
 }
 .section-one-first-title{
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
     line-height: 50px;
 }
 .section-one-text{
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -91,7 +89,6 @@ input{
     line-height: 25px;
 }
 .section-two-first-title{
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -100,7 +97,6 @@ input{
 }
 .section-two-first-text{
     padding: 25px 0 25px 0;
-    font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
