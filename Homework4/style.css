@@ -28,7 +28,6 @@ main{
     align-items: flex-start;
     flex-direction: column;
     padding-left: 21%;
-    padding-right: 11%;
     line-height: 25px;
 }
 .section-one-first-title{
@@ -57,6 +56,7 @@ main{
     width: 100%;
     height: auto;
     flex-grow: 1;
+    padding-left: 4%;
 }
 .secthion-one-third-img-one{
     padding-left: 15%;
@@ -78,7 +78,7 @@ main{
     align-items: flex-start;
     flex-direction: column;
     padding-left: 21%;
-    padding-right: 21%;
+    padding-right: 10%;
     line-height: 25px;
 }
 .section-two-first-title{
@@ -154,18 +154,24 @@ main{
     display: flex;
     height: auto;
     width: 100%;
+    padding-bottom: 5%;
 }
 .section-three-first,
 .section-three-second,
 .section-three-third,
 .section-three-forth{
     width: 25%;
+    line-height: 20px;
 }
 .section-tree-last-text{
-    padding-right: 45%;
+    padding-right: 47%;
 }
 .section-three-first{
     padding-left: 21%;
+    line-height: 27px;
+}
+.section-three-second{
+    line-height: 26px;
 }
 .section-three-forth{
     padding-right: 10%;
