@@ -28,8 +28,25 @@ table {
     width: 100%;
     height: auto;
 }
+
+/* tr th {
+  border-bottom: 2px solid rgba(175, 175, 175, 0.521);
+  text-align: left;
+  background-color: rgb(54, 54, 54);
+  color: #dddddd;
+  padding: 11px;
+}
+
+tr td {
+  border-bottom: 2px solid rgba(175, 175, 175, 0.521);
+  text-align: left;
+  background-color: rgb(54, 54, 54);
+  color: #dddddd;
+  padding: 11px;
+} */
+
 td, th {
-    border: 2px solid rgba(175, 175, 175, 0.521);
+    border-bottom: 2px solid rgba(175, 175, 175, 0.521);
     text-align: left;
     background-color: rgb(54, 54, 54);
     color: #dddddd;
