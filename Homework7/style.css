@@ -128,7 +128,7 @@ header{
     justify-content: flex-end;
 }
 .section-two{
-    width: 100%;
+    padding: 5%;
     height: auto;
     display: flex;
     margin: 79px auto;
@@ -138,24 +138,24 @@ header{
     justify-content: space-evenly;
 }
 .title-one-in-two{
-    width: 475px;
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 130%;
-    height: 100px;
     display: flex;
     color: #212353;
     align-items: center;
 }
 .text-one-in-two{
-    width: 474px;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;color: #4B5D68;
-    height: 170px;
+}
+.content-two-in-two,
+.content-one-in-two{
+    width: 50%;
 }
 .section-three{
     display: flex;
