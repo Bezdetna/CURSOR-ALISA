@@ -1,24 +1,39 @@
-*{
-    font-family: sans-serif;
-}
+@font-face {
+    font-family: 'Avenir';
+    src: url(./fonts/AvenirLTStd-Roman.otf);
+  }
 body{
+    font-family:'Open Sans', 'Avenir',sans-serif;
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
+main{
+    padding: 0 20% 10% 20%;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+.content-two-in-one img{
     width: 100%;
-    height: auto;
 }
 a{
     padding-left: 40px;
     text-decoration: none;
     color: rgba(75, 93, 104, 1);
-    font-family: 'Avenir';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 160%;
     color: #4B5D68;
+    cursor: pointer;
 }
 header{
-    width: 1120px;
-    height: 60px;
+    width: 56%;
+    height: auto;
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
@@ -26,21 +41,11 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.logo-one{
-    width: 49px;
-    height: 35px;
-    padding-right: 8rem;
-}
+
 .container-one{
+    width: 50%;
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    justify-content: space-around;
-}
-.menu{
-    width: 322px;
-    height: 30px;
-    display: flex;
     justify-content: space-around;
 }
 .container-two{
@@ -55,15 +60,451 @@ header{
 }
 
 .btn-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     background: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+.section-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+}
+.content-one-in-one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.title-one-in-one{
+    margin: 0;
+    width: 645px;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    align-items: center;
+    color: #212353;
+    font-style: normal;
+}
+.text-one-in-one{
+    padding: 27px 0 30px 0;
+    width: 24rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    height: 120px;
+}
+.btn-one-in-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 60px;
+    background: #9C69E2;
+    border-radius: 50px;
+    border: none;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+}
+.content-two-in-one{
+    display: flex;
+    width: 50%;
+    height: auto;
+    justify-content: flex-end;
+}
+.section-two{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 79px auto;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title-one-in-two{
+    width: 475px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    height: 100px;
+    display: flex;
+    color: #212353;
+    align-items: center;
+}
+.text-one-in-two{
+    width: 474px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;color: #4B5D68;
+    height: 170px;
+}
+.section-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 11.5rem 0;
+}
+.content-one-in-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title-one-in-three{
+    margin: 0 auto;
+    height: auto;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #212353;
+}
+.text-one-in-three{
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 67%;
+    height: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #4B5D68;
+}
+.content-two-in-three{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 102px;
+}
+.content-one-in-four,
+.content-two-in-four,
+.content-three-in-four,
+.content-four-in-four{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 30px;
+}
+.title1{
+    width: 200px;
+    height: 50px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+}
+.text1{
     font-family: 'Avenir';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+.link1{
+    gap: 10px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
     font-size: 16px;
     line-height: 160%;
     display: flex;
     align-items: center;
     letter-spacing: 0.005em;
     color: #212353;
+    padding: 0;
+}
+.title-in-foure{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.line{
+    background: #9C69E2;
+    opacity: 0.2;
+    height: 2px;
+}
+.footer1{
+    display: flex;
+    padding: 5% 20%;
+    gap: 14rem;
+}
+.container1{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footer-title{
+    width: 405px;
+    height: 52px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #212353;
+}
+.footer-text{
+    font-family: 'Avenir';
+    width: 584px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer-btn1{
+    width: 177px;
+    height: 60px;
+    background: #F063B8;
+    border-radius: 50px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer-btn2-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+.footer-btn2{
+    width: 210px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgb(75 93 104 / 10%);
+    border-radius: 50px;
+}
+.link-footer-in{
+    width: 96px;
+    height: 29px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer2{
+    border-color: #eba9d0;
+    display: flex;
+    padding: 0 20%;
+    gap: 18%;
+}
+.footer2-one-first{
+    display: flex;
+    gap: 20px;
+}
+.footer2-one-second{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.link-footer2{
+    padding: 0;
+}
+.footer2-two{
+    display: flex;
+    gap: 57%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+}
+.footer2-foure{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 20%;
+}
+.text-footer3{
+    width: 360px;
+    height: 50px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 180%;display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #212353;
+}
+.text-footer2{
+    width: 335px;
+    height: 65px;
+    left: 240px;
+    top: 4101px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+
+
+}
+.section-foure{
+    height: auto;
+    background: #9C69E2;
+    border-radius: 50px;
+}
+
+#slider-container .slick-dots {
+    position: relative;
+    text-align: left;
+}
+.title-in-foure{
+    padding: 5% 7% 2% 5%;
+    display: flex;
+    align-items: center;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.slider-info{
+    padding: 0 5% 5% 5%;
+}
+.slider-content{
+    display: flex;
+    gap: 44px;
+    padding: 5% 10%;
+}
+.slider-child{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+}
+.link-slider{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #9C69E2;
+    padding: 0;
+}
+.title-slider{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+.text-slider{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4B5D68;
+}
+.arrow-cont{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2%;
+    margin-right: 81px;
+}
+.title3{
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+}
+.footer2-three{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
