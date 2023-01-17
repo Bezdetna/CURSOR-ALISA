@@ -73,10 +73,20 @@ header{
     color: #212353;
 }
 .section-one{
+    width: 100%;
     display: flex;
+    position: relative;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 8rem;
+    padding-bottom: 18rem;
+}
+.section-one img{
+    position: absolute;
+    width: 68rem;
+    height: 34rem;
+    left: 362px;
+    top: 238px;
 }
 .content-one-in-one{
     width: 50%;
@@ -129,6 +139,7 @@ header{
 }
 .section-two{
     padding: 5%;
+    gap: 4rem;
     height: auto;
     display: flex;
     margin: 79px auto;
@@ -153,9 +164,18 @@ header{
     font-size: 18px;
     line-height: 160%;color: #4B5D68;
 }
+.content-one-in-two{
+    padding: 5px;
+}
+.content-two-in-two{
+    padding: 5px;
+}
 .content-two-in-two,
 .content-one-in-two{
     width: 50%;
+}
+.content-one-in-two img{
+    width: 100%;
 }
 .section-three{
     display: flex;
@@ -507,4 +527,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+.container-links-app a{
+    padding: 0 14px 0 0;
 }
