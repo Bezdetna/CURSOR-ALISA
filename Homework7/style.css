@@ -79,12 +79,10 @@ header{
     align-items: center;
     justify-content: flex-start;
     padding-top: 8rem;
-    padding-bottom: 18rem;
+    padding-bottom: 15rem;
 }
 .section-one img{
     position: absolute;
-    width: 907px;
-    height: 482px;
     left: 362px;
     top: 238px;
 }
