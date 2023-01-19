@@ -265,8 +265,8 @@ header{
 }
 .footer1{
     display: flex;
-    padding: 5% 20%;
-    gap: 14rem;
+    justify-content: space-between;
+    padding: 60px 0 100px 0;
 }
 .container1{
     display: flex;
@@ -347,8 +347,7 @@ header{
 .footer2{
     border-color: #eba9d0;
     display: flex;
-    padding: 0 20%;
-    gap: 18%;
+    gap: 22%;
 }
 .footer2-one-first{
     display: flex;
@@ -382,7 +381,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2% 20%;
+    padding: 40px 0 50px 0;
 }
 .text-footer3{
     width: 360px;
