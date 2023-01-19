@@ -1,0 +1,248 @@
+p{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3,
+h5, h6{
+    font-family: 'Playfair Display', serif;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Mulish', sans-serif;
+}
+button{
+    cursor: pointer;
+    font-family: 'Mulish', sans-serif;
+}
+header{
+    padding: 16px 0 19px 0;
+}
+hr{
+    border: none;
+    color: #F3F3F3;
+    background-color: #F3F3F3;
+    height: 2px;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr;
+    grid-template-areas: 'header-logo header-app header-items';
+}
+.header-logo{
+    grid-area: header-logo;
+}
+.header-app{
+    display: grid;
+    grid-template-columns: repeat(3,40px);
+    grid-area: header-app;
+    justify-content: center;
+    align-items: baseline;
+}
+.header-items{
+    grid-area: header-items;
+    display: grid;
+    grid-template-columns: repeat(3,40px);
+    justify-content: center;
+    align-items: baseline;
+}
+.header-nav{
+    grid-area: header-nav;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #000000;
+    padding: 24px 0 18px 0;
+}
+.navigation{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 150px);
+}
+.nav2-link{
+    color: #000000;
+    padding: 24px 0 1px 0;
+}
+.nav2-link:hover{
+    color: #EDA3B5;
+    border-bottom: 2px solid;
+}
+.container2{
+    background: url(./img/hero.png);
+    max-width: 1470px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.main-text{
+    padding: 103px 829px 118px 164px;
+    display: grid;
+
+} 
+.main-text h1{
+    padding-bottom: 13px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    color: #FFFFFF;
+}
+.main-text span{
+    padding-bottom: 34px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.main-text button{
+    max-width: 255px;
+    padding: 23px 78px;
+    background: #1B2437;
+    border-radius: 15px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.container3{
+    max-width: 1470px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.main-collection{
+    padding: 71px 185px 30px 163px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-gap: 30px 30px;
+    grid-template-areas: 'section1 section2 section3' 'section1 section4 section4';
+}
+.section1 div{
+    padding: 268px 125px 100px 32px;
+}
+.section1{
+    grid-area: section1;
+    background: url(./img/women_collection_category.png);
+    border-radius: 16px;
+    max-width: 445px;
+}
+.section1 h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.section1 h6{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.section1 p{
+    background-color: #FFFFFF;
+    opacity: 0.4;
+    border-radius: 8px;
+    max-width: 93px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.section2{
+    display: grid;
+    grid-area: section2;
+    background-color: #EFEFF4;
+    border-radius: 16px;
+    justify-content: ;
+    align-items: end;
+}
+.section2 div{
+    padding: 53px 0 52px 22px;
+}
+.section2 h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+}
+.section2 h6{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B2437;
+}
+.section3{
+    background: url(./img/dresses_category.png);
+    border-radius: 16px;
+    grid-area: section3;
+}
+.section3 div{
+    padding: 53px 0 97px 39px;
+}
+.section3 h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.section3 h6{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.section4{
+    background: url(./img/denim_jackets_category.png);
+    border-radius: 16px;
+    grid-area: section4;
+}
+.section4 div{
+    padding: 64px 0 65px 22px;
+}
+.section4 h4{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+}
+.section4 h6{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B2437;
+}
