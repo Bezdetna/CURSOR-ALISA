@@ -40,12 +40,6 @@ hr{
     margin: 0 auto;
     padding: 0 15px;
 }
-.container1{
-    max-width: 1140px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-}
 .header{
     display: grid;
     justify-content: center;
@@ -171,8 +165,22 @@ hr{
     grid-gap: 30px 30px;
     grid-template-areas: 'section1 section2 section3' 'section1 section4 section4';
 }
-.section1 div{
+.section1 .first-cont{
     padding: 268px 125px 100px 32px;
+}
+.text-cont{
+    max-width: 93px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+}
+.text-cont p{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
 }
 .section1{
     grid-area: section1;
@@ -270,10 +278,15 @@ hr{
     line-height: 30px;
     color: #1B2437;
 }
-.main-slider{
+.main-slider div:first-child{
     background: #FFFFFF;
     border-radius: 16px;
+
 }
+.main-slider{
+    padding: 0px 165px 0 165px;
+}
+
 .slide-child{
     padding: 16px 0px 24px 0px;
     text-align: -webkit-center;
@@ -283,6 +296,9 @@ hr{
     font-size: 18px;
     line-height: 30px;
     color: #000000;
+}
+.options{
+    padding: 0px 165px 70px 165px;
 }
 .options-title{
     padding: 70px 0 35px 0;
@@ -363,7 +379,7 @@ hr{
     left: 75%;
 }
 .content-map{
-    padding: 70px 0;
+    padding: 0px 165px 70px 165px;
 }
 .contact{
     background: #FFFFFF;
