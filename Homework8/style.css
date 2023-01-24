@@ -35,7 +35,7 @@ hr{
     padding: 0 15px;
 }
 .container{
-    max-width: 1470px;
+    max-width: 1110px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
@@ -126,7 +126,6 @@ hr{
 .main-text{
     padding: 6% 0 9% 7%;
     display: grid;
-    background: url(./img/hero.png);
 } 
 .main-text h1{
     padding-bottom: 13px;
@@ -157,8 +156,15 @@ hr{
     line-height: 30px;
     color: #FFFFFF;
 }
+.cont1{
+    background-image: url(./img/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 165px;
+    background-size: 100%;
+}
 .main-collection{
-    padding: 5% 12% 5% 12%;
+    padding: 5% 0 5% 0;
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr;
     grid-template-rows: 200px 200px;
@@ -283,10 +289,6 @@ hr{
     border-radius: 16px;
 
 }
-.main-slider{
-    padding: 0px 165px 0 165px;
-}
-
 .slide-child{
     padding: 16px 0px 24px 0px;
     text-align: -webkit-center;
