@@ -82,15 +82,16 @@ footer{
     }
     .section-header{
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: -webkit-center;
+        padding: 105px 0 79px 0;
     }
 
     .inf-logo{
         max-width: 320px;
         width: 100%;
+        text-align: center;
     }
     .text-logo{
         display: flex;
@@ -366,13 +367,6 @@ footer{
     .cont-two{
         background-image: none;
     }
-    .img1{
-        width: 247px;
-    }
-    .img2{
-        width: 247px;
-        
-    }
 }
 
 .circle-main{
@@ -560,7 +554,7 @@ footer{
 }
 @media screen and (max-width: 720px), (max-width: 360px){
     .cont-five{
-        background-image: none;
+        background-image: url(./img/Group\ 692\ \(1\).png);
     }
     .content-five-main-first{
         justify-content: center;
@@ -575,7 +569,6 @@ footer{
         justify-content: center;
          
     }
-}
 .cont-foure{
     background: #FAFAFA;
 }
