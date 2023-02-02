@@ -774,7 +774,7 @@ input:checked + .slider:before {
     background: #FFFFFF;
     border: 1px solid #828282;
     border-radius: 4px;
-    margin: 0 36px 0 36px;
+    margin: 0 16px 0 16px;
 }
 .slider-child > p{
     text-align: start;
@@ -808,11 +808,18 @@ input:checked + .slider:before {
     background: none;
     position: absolute;
     top: 50px;
-
 }
 .slider-general-container{
     position: relative;
 }
 .next-btn{
     left: 95%;
+}
+@media screen and (max-width: 720px){
+    .slider-content{
+        gap: 50px;
+    }
+    .next-btn{
+        left: 80%;
+    }
 }
