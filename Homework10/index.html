@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -20,7 +25,8 @@
                             Get a personalized football experience tailored just for you
                         </h1>
                         <p>
-                            Achieve super-fan status by getting tailored updates and up-to-the-minute information on your team.
+                            Achieve super-fan status by getting tailored updates and up-to-the-minute information on
+                            your team.
                         </p>
                         <div class="btn-logo">
                             <button><img src="./img/Apple Store.svg" alt="Apple Store"></button>
@@ -37,8 +43,35 @@
             <div class="container">
                 <div class="content-main-one">
                     <div class="img-main-one">
-                        <img src="./img/SAMPLE01.png" alt="img1" class="img1">
+                        <div class="img1">
+                            <div class="content-img1">
+                                <div class="img1-text">
+                                    <P class="img1-one">Sat, 12:35pm</P>
+                                    <P class="img1-two">
+                                        Arsenal v <br>
+                                        Chelsea
+                                    </P>
+                                    <P class="img1-two">
+                                        Friendly Match
+                                    </P>
+                                </div>
+                                <div class="img-img1">
+                                    <img src="./img/Group (3).png" alt="arsenal" class="icon1-img1">
+                                    <img src="./img/chelsea-fc.png" alt="chelsea" class="icon2-img1">
+                                </div>
+                            </div>
+                            <div class="content-text">
+                                <p>
+                                    Turn on all match notifications
+                                </p>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
                         <img src="./img/SAMPLE02.png" alt="img2" class="img2">
+                        <img src="./img/Group 695.png" alt="img-video" class="img-video">
                     </div>
                     <div class="content-main-two">
                         <h5>
@@ -48,10 +81,13 @@
                             An Enhanced Football Experience
                         </h2>
                         <p>
-                            The Guardian Live Scores app is your go to app for live scores and watching Premier League goals… Get in there, what a result!
+                            The Guardian Live Scores app is your go to app for live scores and watching Premier League
+                            goals… Get in there, what a result!
                             <br>
                             <br>
-                            As well as videos of all the goals, you can watch match highlights, check out the latest scores and results and stay bang-up-to-date with the big football stories from The Guardian publication.
+                            As well as videos of all the goals, you can watch match highlights, check out the latest
+                            scores and results and stay bang-up-to-date with the big football stories from The Guardian
+                            publication.
                         </p>
                         <a href="#">Learn more</a>
                     </div>
@@ -69,10 +105,14 @@
                             User-friendly Interface
                         </h2>
                         <p>
-                            The in-game goal clips from every Premier League match are available to Guardian TV customers with a Guardian subscription.
+                            The in-game goal clips from every Premier League match are available to Guardian TV
+                            customers with a Guardian subscription.
                             <br>
                             <br>
-                            So, if you’re not a subscriber, now’s the time to make that savvy call. If that’s a step too far for you, you can still watch loads of firecracker Premier League action as long as you sign in with a free Guardian iD.                        </p>
+                            So, if you’re not a subscriber, now’s the time to make that savvy call. If that’s a step too
+                            far for you, you can still watch loads of firecracker Premier League action as long as you
+                            sign in with a free Guardian iD.
+                        </p>
                         <a href="#">Learn more</a>
                     </div>
                     <div class="background"></div>
@@ -103,50 +143,115 @@
                     <h2 class="title-cont-three">
                         Features That Will Tailor Your Experience
                     </h2>
-                <div class="content-icon">
-                    <div>
-                        <img src="./img/baseline-ondemand_video-24px.svg" alt="icon1">
-                        <p>• Video highlights for every Premier League and English Football League game</p>
+                    <div class="content-icon">
+                        <div>
+                            <img src="./img/baseline-ondemand_video-24px.svg" alt="icon1">
+                            <p>• Video highlights for every Premier League and English Football League game</p>
+                        </div>
+                        <div>
+                            <img src="./img/baseline-notifications_active-24px.svg" alt="icon2">
+                            <p>• Notifications for your teams, including in-game goal clips and Premier League match
+                                highlights for Sky TV subscribers with Guardian.</p>
+                        </div>
+                        <div>
+                            <img src="./img/baseline-hd-24px.svg" alt="icon3">
+                            <p>• Brand new video section including dedicated areas for your chosen team, trending video,
+                                Premier League, Football league and other major leagues</p>
+                        </div>
+                        <div>
+                            <img src="./img/baseline-flag-24px.svg" alt="icon4">
+                            <p>• Match pages showing live scores, commentary, team line-ups and enhanced match stats to
+                                keep you up-to-date on all the action</p>
+                        </div>
+                        <div>
+                            <img src="./img/baseline-style-24px.svg" alt="icon5">
+                            <p>• The new picture in picture video mode means you can watch goals, manager interviews and
+                                more whilst using other areas of the app – so you don’t need to miss any of the action
+                            </p>
+                        </div>
+                        <div>
+                            <img src="./img/baseline-poll-24px.svg" alt="icon6">
+                            <p>• Live updated league tables including all the domestic, European and major leagues and
+                                tournaments</p>
+                        </div>
+                        <div>
+                            <img src="./img/baseline-add_to_home_screen-24px.svg" alt="icon7">
+                            <p>• The Guardian News Vidiprinter. Follow the goals as they go in with our new and improved
+                                Vidiprinter</p>
+                        </div>
+                        <div>
+                            <img src="./img/baseline-people-24px.svg" alt="icon8">
+                            <p>• Match reports, previews and a dedicated news section</p>
+                        </div>
+                        <div>
+                            <img src="./img/baseline-tune-24px.svg" alt="icon9">
+                            <p>• And you can achieve super-fan status by personalising your home page with
+                                up-to-the-minute information on your team.</p>
+                        </div>
                     </div>
-                    <div>
-                        <img src="./img/baseline-notifications_active-24px.svg" alt="icon2">
-                        <p>• Notifications for your teams, including in-game goal clips and Premier League match highlights for Sky TV subscribers with Guardian.</p>
-                    </div>
-                    <div>
-                        <img src="./img/baseline-hd-24px.svg" alt="icon3">
-                        <p>• Brand new video section including dedicated areas for your chosen team, trending video, Premier League, Football league and other major leagues</p>
-                    </div>
-                    <div>
-                        <img src="./img/baseline-flag-24px.svg" alt="icon4">
-                        <p>• Match pages showing live scores, commentary, team line-ups and enhanced match stats to keep you up-to-date on all the action</p>
-                    </div>
-                    <div>
-                        <img src="./img/baseline-style-24px.svg" alt="icon5">
-                        <p>• The new picture in picture video mode means you can watch goals, manager interviews and more whilst using other areas of the app – so you don’t need to miss any of the action</p>
-                    </div>
-                    <div>
-                        <img src="./img/baseline-poll-24px.svg" alt="icon6">
-                        <p>• Live updated league tables including all the domestic, European and major leagues and tournaments</p>
-                    </div>
-                    <div>
-                        <img src="./img/baseline-add_to_home_screen-24px.svg" alt="icon7">
-                        <p>• The Guardian News Vidiprinter. Follow the goals as they go in with our new and improved Vidiprinter</p>
-                    </div>
-                    <div>
-                        <img src="./img/baseline-people-24px.svg" alt="icon8">
-                        <p>• Match reports, previews and a dedicated news section</p>
-                    </div>
-                    <div>
-                        <img src="./img/baseline-tune-24px.svg" alt="icon9">
-                        <p>• And you can achieve super-fan status by personalising your home page with up-to-the-minute information on your team.</p>
-                    </div>
-                </div>
                 </div>
             </div>
         </section>
-        <section class="cont-six">
-            <div>
-                
+        <section class="container">
+            <div class="slider-card">
+                <h2>
+                    What Our Users Say
+                </h2>
+                <div class="slider-general-container">
+                    <div class="slider-container">
+                        <div class="slider-child">
+                            <div class="slider-content">
+                                <div class="card-info">
+                                    <img src="./img/Ellipse.svg" alt="Noah Jackson">
+                                    <h5 class="card-name">Noah Jackson</h5>
+                                </div>
+                                <img src="./img/twitter 2.svg" alt="Twitter icon">
+                            </div>
+                            <p>I use this app every day and it's a great way to keep up to date with what's going on in
+                                football. It's a shame it won't rotate into landscape mode like its main competitor</p>
+                        </div>
+                        <div class="slider-child">
+                            <div class="slider-content">
+                                <div class="card-info">
+                                    <img src="./img/Ellipse (3).svg" alt="Sarah Udoma">
+                                    <h5 class="card-name">Sarah Udoma</h5>
+                                </div>
+                                <img src="./img/twitter 2.svg" alt="Twitter icon">
+                            </div>
+                            <p>I use this app every day and it's a great way to keep up to date with what's going on in
+                                football.</p>
+                        </div>
+                        <div class="slider-child">
+                            <div class="slider-content">
+                                <div class="card-info">
+                                    <img src="./img/Ellipse (2).svg" alt="Michael Akinuli">
+                                    <h5 class="card-name">Michael Akinuli</h5>
+                                </div>
+                                <img src="./img/twitter.svg" alt="Twitter icon">
+                            </div>
+                            <p>Good for watching the goals and great for highlights instead of waiting till 10:30 before you
+                                can watch highlights on March of the day also no need of sky go</p>
+                        </div>
+                        <div class="slider-child">
+                            <div class="slider-content">
+                                <div class="card-info">
+                                    <img src="./img/Ellipse (3).svg" alt="Sarah Udoma">
+                                    <h5 class="card-name">Sarah Udoma</h5>
+                                </div>
+                                <img src="./img/twitter 2.svg" alt="Twitter icon">
+                            </div>
+                            <p>This app has videos for other premier league teams who play and it also gives me nofications
+                                when my favourite team playsr</p>
+                        </div>
+                    </div>
+                    <div class="btn-wrap">
+                        <button class="prev-btn">
+                            <img src="./img/Group 161.7.svg" alt="prev-btn">
+                        </button>
+                        <button class="next-btn"><img src="./img/Group 161.6.svg" alt="next-btn"></button>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
         <section class="cont-foure">
@@ -162,7 +267,7 @@
                         <img src="./img/designer-technology.svg" alt="logo dt" class="img-logo-4">
                         <img src="./img/designer-news.svg" alt="logo dn" class="img-logo-5">
                         <img src="./img/sky-sports-1.svg" alt=" logo ss" class="img-logo-6">
-                        
+
                     </div>
                 </div>
             </div>
@@ -175,10 +280,13 @@
                             Get Up Close With Your Team
                         </h2>
                         <p>
-                            If you’re interested in the scores of more than one team (it’s OK, we won’t tell your mates you support two clubs!), you can choose the scores and competitions that matter to you using the ‘My Scores’ section. So, make sure you’re a top-flight football fan by downloading the Football Score Centre now. It’s got all this:                        </p>
+                            If you’re interested in the scores of more than one team (it’s OK, we won’t tell your mates
+                            you support two clubs!), you can choose the scores and competitions that matter to you using
+                            the ‘My Scores’ section. So, make sure you’re a top-flight football fan by downloading the
+                            Football Score Centre now. It’s got all this: </p>
                         <div class="btn-logo">
                             <button><img src="./img/Apple Store.svg" alt="Apple Store"></button>
-                            <button> <img src="./img/Google Play.svg" alt="Google Play"></button>
+                            <button> <img src="./img/Google Play.svg" alt="Google Play" style="display:flex; left: 95%;"></button>
                         </div>
                     </div>
                 </div>
@@ -189,24 +297,48 @@
         <div class="container">
             <div class="inf-footer">
                 <img src="./img/Group (1).svg" alt="LOGO">
-                <div class="reverse-main">
-                <div class="menu-footer">
-                    <a href="#">Download</a>
-                    <a href="#">Support</a>
-                    <a href="#">Developers</a>
-                    <a href="#">Privacy</a>
-                </div>
-                <div class="app-footer">
-                    <a href="#"><img src="./img/twitter 2.svg" alt="twitter"></a>
-                    <a href="#"><img src="./img/facebook 2.svg" alt="facebook"></a>
-                    <a href="#"><img src="./img/instagram 2.svg" alt="instagram"></a>
-                </div>
+                <!-- <div class="reverse-main"> -->
+                    <div class="menu-footer">
+                        <a href="#">Download</a>
+                        <a href="#">Support</a>
+                        <a href="#">Developers</a>
+                        <a href="#">Privacy</a>
+                    </div>
+                    <div class="app-footer">
+                        <a href="#"><img src="./img/twitter 2.svg" alt="twitter"></a>
+                        <a href="#"><img src="./img/facebook 2.svg" alt="facebook"></a>
+                        <a href="#"><img src="./img/instagram 2.svg" alt="instagram"></a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
-
+        $('.slider-container').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: true,
+            prevArrow: $(".prev-btn"),
+            nextArrow: $(".next-btn"),
+            adaptiveHeight: true,
+            centerMode: true,
+            responsive: [
+                {
+                    breakpoint: 720,
+                    settings: {
+                        slidesToShow: 1,
+                        arrows: true
+                    }
+                }
+            ]
+        });
     </script>
 </body>
+
 </html>
