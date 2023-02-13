@@ -3,14 +3,10 @@ a{
     color: black;
     cursor: pointer;
 }
-.about{
-    margin: 0 10%;
-    padding: 0 0 2% 0;
-}
 .link-main{
     letter-spacing: 1px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-right: 55px;
 }
 .link-main:hover{
@@ -32,6 +28,8 @@ a{
 .stories{
     padding: 0 0 10px 0;
     border-top: 1px solid rgb(196, 196, 196);
+    position: relative;
+
 }
 .border-story{
     border: 4px solid #dbdbdb;
@@ -49,3 +47,7 @@ form.search {
     padding: 9px 4px 9px 40px;
     background: transparent url(./img/search.png) no-repeat 13px center;
   }
+.line{
+    position: relative;
+    padding-bottom: 50px;
+}
