@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Препроцесори</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
@@ -13,16 +15,16 @@
 <body>
     <header>
         <div class="container">
-            <div class="navbar">
-                <div>
+            <div class="navbar d-flex justyfy-content-space-between">
+                <div class="col-2 col-sm-1 col-md-4">
                     <a href="#">Home</a>
                     <a href="#">About</a>
                     <a href="#">Contact</a>
                 </div>
-                <div>
+                <div class="col-2 col-sm-1 col-md-2">
                     <h5>Landie</h5>
                 </div>
-                <div>
+                <div class="col-5 col-sm-5 col-md-3">
                     <button>
                         Buy Now
                     </button>
@@ -32,7 +34,7 @@
     </header>
     <main>
         <section class="main-one">
-            <div class="container">
+            <div class="container container-lg container-md container-sm">
                 <div class="content-one">
                     <h1>
                         Introduce Your Product Quickly & Effectively
@@ -43,6 +45,7 @@
                         mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
                         quis enim.
                     </p>
+                    <div>
                     <button>
                         Purchase UI Kit
                     </button>
@@ -50,12 +53,13 @@
                         Learn More
                     </button>
                 </div>
+                </div>
             </div>
         </section>
         <section class="main-two">
-            <div class="container">
+            <div class="container container-lg container-md container-sm">
                 <div class="content-two">
-                    <div class="content-text-two">
+                    <div class="content-text-two ">
                         <div class="title-content">
                             <h3>Light, Fast & Powerful</h3>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
@@ -72,8 +76,7 @@
                             <div>
                                 <img src="./img/Icon.svg" alt="notification">
                                 <h6>Title Goes Here</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                                    dolor.
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                                 </p>
                             </div>
                             <div>
@@ -84,7 +87,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="content-two-img">
                         <img src="./img/undraw_mobile_login_ikmv.png" alt="">
                     </div>
                 </div>
@@ -146,7 +149,9 @@
             </div>
         </section>
     </main>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

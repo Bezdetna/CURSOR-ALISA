@@ -48,7 +48,8 @@ button{
     .content-one{
         padding: 253px 0 386px 0;
         max-width: 539px;
-        width: 100%;}
+        width: 100%;
+}
     h1{
         padding-bottom:  20px;
         font-weight: 600;
@@ -76,6 +77,35 @@ button{
         background-color: #ffff;
         border: 2px solid #111B47;
     }
+}
+@media screen and (max-width: 760px){
+        .main-one{
+            background-image: none;
+        }
+        .main-two{
+            display: flex;
+            padding: 20px 0;
+        }
+        .content-one{
+            display: flex;
+            flex-direction: column;
+            max-width:0;
+            justify-content: center;
+            text-align: center;
+            margin: 0 10px;
+        }
+        .main-two{
+            display: flex;
+            padding: 20px 0;
+        }
+        .content-text-two{
+            max-width: max-content;
+            justify-content: center;
+            text-align: center;
+        }
+        .content-two-img{
+            display: none;
+        }
 }
 .main-two{
     .content-two{

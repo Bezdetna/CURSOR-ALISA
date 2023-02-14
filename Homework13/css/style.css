@@ -93,6 +93,50 @@ button {
   border: 2px solid #111B47;
 }
 
+@media screen and (max-width: 760px) {
+  .main-one {
+    background-image: none;
+  }
+  .main-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 0;
+  }
+  .content-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin: 0 10px;
+  }
+  .main-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px 0;
+  }
+  .content-text-two {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .content-two-img {
+    display: none;
+  }
+}
 .main-two .content-two {
   display: -webkit-box;
   display: -ms-flexbox;
