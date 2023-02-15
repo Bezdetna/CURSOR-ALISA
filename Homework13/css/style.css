@@ -17,9 +17,12 @@ button {
 }
 
 button:hover {
+  padding: 7px 40px;
+  border: none;
   color: #111B47;
   background-color: white;
-  border: 2px solid #111B47;
+  -webkit-box-shadow: 0 0 0 3px #111B47;
+          box-shadow: 0 0 0 3px #111B47;
 }
 
 .navbar {
@@ -67,7 +70,7 @@ button:hover {
 .main-one .content-one {
   padding: 253px 0 386px 0;
   width: 100%;
-  max-width: 620px;
+  max-width: 650px;
 }
 .main-one h1 {
   padding-bottom: 20px;
@@ -159,22 +162,17 @@ button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding-top: 109px;
+  padding-bottom: 109px;
 }
 
 @media screen and (max-width: 990px) {
   .main-one {
     background-image: none;
-  }
-  .main-two {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 20px 0;
   }
   .content-one {
     display: -webkit-box;
@@ -227,10 +225,57 @@ button:hover {
     margin: 0 auto;
     gap: 10px;
   }
-  .btn-second {
-    margin-left: 0;
-  }
-  .content-three {
+}
+.main-four {
+  background-color: #F3F5FF;
+}
+.main-four .content-four {
+  padding-top: 237px;
+  padding-bottom: 173px;
+}
+.main-four .content-four-one > h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #091133;
+}
+.main-four .content-four-one > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #6F7CB2;
+  padding-bottom: 35px;
+}
+.main-four .content-four-two > h2 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #222F65;
+}
+.main-four .content-four-two > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #37447E;
+  padding-bottom: 60px;
+}
+.main-four .content-four-three > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #5D6970;
+}
+
+@media screen and (max-width: 500px) {
+  .footer-one {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -239,4 +284,82 @@ button:hover {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .footer-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+footer {
+  background-color: #E7ECFF;
+  padding-bottom: 36px;
+}
+footer .footer-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 61px;
+  padding-bottom: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer-one p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #939EA4;
+}
+footer .footer-one h5 {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  color: #37447E;
+}
+footer .footer-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid #CDD1D4;
+}
+footer .footer-two .footernav > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #929ECC;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+footer .footer-img > img {
+  padding-left: 20px;
+  padding-top: 20px;
 }
