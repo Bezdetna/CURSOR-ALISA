@@ -8,11 +8,15 @@
 button{
     border: none;
     cursor: pointer;
+    background: #111B47;
+    border-radius: 2px;
+    color: #ffff;
+    padding: 7px 40px;
 }
-.container{
-    max-width: 1110px;
-    width: 100%;
-    margin: 0 auto;
+button:hover{
+    color: #111B47;
+    background-color: #ffff;
+    border: 2px solid #111B47;
 }
 .navbar{
     display: flex;
@@ -40,6 +44,7 @@ button{
         color: #37447E;
     }
 }
+
 .main-one{
     background: url(../img/designer_1.png);
     background-repeat: space;
@@ -47,8 +52,8 @@ button{
     background-position-x: right;
     .content-one{
         padding: 253px 0 386px 0;
-        max-width: 539px;
         width: 100%;
+        max-width: 620px;
 }
     h1{
         padding-bottom:  20px;
@@ -65,48 +70,8 @@ button{
         line-height: 30px;
         color: #505F98;
     }
-    button{
-        background: #111B47;
-        border-radius: 2px;
-        color: #ffff;
-        padding: 7px 40px;
-    }
-    .btn-second{
-        margin-left: 30px;
-        color: #111B47;
-        background-color: #ffff;
-        border: 2px solid #111B47;
-    }
 }
-@media screen and (max-width: 760px){
-        .main-one{
-            background-image: none;
-        }
-        .main-two{
-            display: flex;
-            padding: 20px 0;
-        }
-        .content-one{
-            display: flex;
-            flex-direction: column;
-            max-width:0;
-            justify-content: center;
-            text-align: center;
-            margin: 0 10px;
-        }
-        .main-two{
-            display: flex;
-            padding: 20px 0;
-        }
-        .content-text-two{
-            max-width: max-content;
-            justify-content: center;
-            text-align: center;
-        }
-        .content-two-img{
-            display: none;
-        }
-}
+
 .main-two{
     .content-two{
         display: flex;
@@ -158,13 +123,42 @@ button{
         color: #6F7CB2;
     }
 }
-.main-three{
-    .content-three{
-        display: flex;
-        flex-direction: row;
-        padding-top: 109px;
-        justify-content: space-between;
+
+@media screen and (max-width: 990px){
+    .main-one{
+        background-image: none;
     }
-
+    .main-two{
+        display: flex;
+        padding: 20px 0;
+    }
+    .content-one{
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin: 0 10px;
+    }
+    .main-two{
+        display: flex;
+        padding: 20px 0;
+    }
+    .content-text-two{
+        max-width: max-content;
+        justify-content: center;
+        text-align: center;
+    }
+    .content-two-img{
+        display: none;
+    }
+    .content-one > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 10px;
+    }
 }
-
